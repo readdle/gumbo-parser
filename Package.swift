@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "SwiftGumbo",
     products: [
-        .library(name: "SwiftGumbo", type: .static, targets: ["SwiftGumbo"]),
+        .library(name: "SwiftGumbo", targets: ["SwiftGumbo"]),
     ],
     dependencies: [
     ],
