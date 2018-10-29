@@ -1,0 +1,5 @@
+module SwiftGumbo [system] {
+	header "src/gumbo.h"
+	link "c"
+	export *
+}
