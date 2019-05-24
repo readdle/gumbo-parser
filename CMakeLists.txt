@@ -9,7 +9,6 @@ file(GLOB EXPORT_HEADER_FILES src/gumbo.h src/tag_enum.h)
 set(INCLUDE_DIRECTORIES src)
 
 if(MSVC)
-  list(APPEND EXPORT_HEADER_FILES visualc/include/strings.h)
   list(APPEND HEADER_FILES visualc/include/strings.h)
   list(APPEND INCLUDE_DIRECTORIES visualc/include)
 endif()
